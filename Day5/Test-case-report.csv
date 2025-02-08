@@ -1,0 +1,6 @@
+,,,,,,,,
+Test Case ID,Description,Steps,Expected Result,Actual Result,Status,Severity,Assigned To,Remarks
+TC-001,Verify product listing loads correctly,Open homepage,Products should be displayed,Products load successfully,✅ Passed,Low,-,-
+TC-002,Search functionality,"Search for ""Laptop""",Relevant products should appear,Correct products displayed,✅ Passed,Medium,-,-
+TC-003,Add to Cart,"Click ""Add to Cart"" on a product",Product added to cart,Cart updates correctly,✅ Passed,High,-,-
+TC-004,API Failure Handling,Disconnect internet & reload,"Show ""No products available"" message",Error message displayed,✅ Passed,Critical,-,Added fallback UI
